@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f2937;
+  background:
+    radial-gradient(circle at top left, rgba(216, 90, 48, 0.12), transparent 26%),
+    linear-gradient(180deg, #fff8f0 0%, #f5ecdf 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background: #fff8f0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-devanagari {
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
